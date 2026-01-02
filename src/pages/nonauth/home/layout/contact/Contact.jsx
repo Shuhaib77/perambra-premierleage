@@ -28,12 +28,13 @@ function Contact() {
   return (
     <>
       <div
-        className=" h-full min-h-[1100.666748046875px] w-[100%] flex flex-col justify-center items-center mt-20 p-3 lg:p-10 pt-20  bg-cover bg-no-repeat"
+        className=" h-full    min-h-[1100.666748046875px] w-[100%] flex flex-col justify-center items-center mt-20 p-3 lg:p-10 pt-20  bg-cover bg-no-repeat"
         style={{
           backgroundImage:
-            'url("https://images.unsplash.com/photo-1624194611924-bb02300dad6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwYmF0JTIwYmFsbHxlbnwxfHx8fDE3NjcyNjg1NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral")',
+              'linear-gradient(to right, #1C398E/80, #162456),url("https://images.unsplash.com/photo-1624194611924-bb02300dad6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwYmF0JTIwYmFsbHxlbnwxfHx8fDE3NjcyNjg1NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral")',
         }}
       >
+        
         <div className="text-center space-y-3 w-full  text-white">
           <Button
             className={"bg-secondary    lg:h-[50px] px-5 rounded-2xl"}
@@ -78,7 +79,9 @@ function Contact() {
             </div>
           </div>
         </div>
+        
       </div>
+      
     </>
   );
 }
